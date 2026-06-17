@@ -82,12 +82,11 @@ install_system_dependencies() {
                 jq \
                 ca-certificates \
                 libnss3 \
-                libgconf-2-4 \
                 libatk1.0-0 \
                 libatk-bridge2.0-0 \
                 libgtk-3-0 \
                 libgbm-dev \
-                libasound2; then
+                libasound2t64; then
                 echo -e "${GREEN}System dependencies installed successfully.${NC}"
             else
                 echo -e "${RED}Error: Failed to install system dependencies using apt-get.${NC}"
